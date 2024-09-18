@@ -5,7 +5,9 @@ In this paper, we explore how semantic similarity between generated and referenc
 # Directory Structure
 There are two folders within the replication package:
 
-/Code: The source code of deep assessment of code review generation approach
-/DataSet: Data to replicate the evaluation in the paper
+./Code: The source code of deep assessment of code review generation approach
 
+./DataSet: Data to replicate the evaluation in the paper
 
+# DataSet:
+![Methodology for Benchmark Construction](./dataset.png "Methodology for Benchmark Construction")
