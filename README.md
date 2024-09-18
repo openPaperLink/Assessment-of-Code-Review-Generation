@@ -10,4 +10,10 @@ There are two folders within the replication package:
 ./DataSet: Data to replicate the evaluation in the paper
 
 # DataSet:
+The methodology used for constructing the benchmark
 ![Methodology for Benchmark Construction](./dataset.png "Methodology for Benchmark Construction")
+
+# Code: 
+Step-by-step running deep assessment of code review generation approaches:
+
+
