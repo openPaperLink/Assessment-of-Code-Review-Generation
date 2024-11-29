@@ -24,7 +24,7 @@ Step-by-step running deep assessment of code review generation approaches:
    
    `python embeddingScore.py`
 
-4. LLM-based Score:
+4. LLM-based Score (ChatGPT-4o):
    
     `python LLMScore.py`
 
@@ -39,3 +39,15 @@ Step-by-step running deep assessment of code review generation approaches:
 8. Kolmogorov-Smirnov Statistic:
 
    `python ks.py`
+
+9. MENTER Score:
+
+   `python MENTER.py`
+   
+10. ROUGE Score:
+
+    `python ROUGE.py`
+
+11. LLM-based Score (DeepSeek-Coder):
+
+    `python ScoreByDeepSeek.py`
