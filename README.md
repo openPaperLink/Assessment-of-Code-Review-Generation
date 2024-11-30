@@ -24,30 +24,30 @@ Step-by-step running deep assessment of code review generation approaches:
    
    `python embeddingScore.py`
 
-4. LLM-based Score (ChatGPT-4o):
+3. LLM-based Score (ChatGPT-4o):
    
     `python LLMScore.py`
 
-6. Decision Tree:
+4. Decision Tree:
    
     `DecisionTree.py`
 
-7. Spearman Rank Correlation Coefficient:
+5. Spearman Rank Correlation Coefficient:
 
    `python spearman.py`
 
-8. Kolmogorov-Smirnov Statistic:
+6. Kolmogorov-Smirnov Statistic:
 
    `python ks.py`
 
-**9. MENTER Score:**
+**7. MENTER Score:**
 
-    `python MENTER.py`
+    python MENTER.py
+
+**8. ROUGE Score:**
    
-**10. ROUGE Score:**
-   
-     `python ROUGE.py`
+     python ROUGE.py
     
-**11. LLM-based Score (DeepSeek-Coder):**
+**9. LLM-based Score (DeepSeek-Coder):**
    
-     `python ScoreByDeepSeek.py`
+     python ScoreByDeepSeek.py
