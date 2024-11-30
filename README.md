@@ -16,29 +16,29 @@ The methodology used for constructing the benchmark
 # Code: 
 Step-by-step running deep assessment of code review generation approaches:
 
-1. BLEU Score:
+  1. BLEU Score:
 
-    `python BLEU.py`
+    python BLEU.py
 
-2. Embedding-based Score:
+  2. Embedding-based Score:
    
-   `python embeddingScore.py`
+    python embeddingScore.py
 
-3. LLM-based Score (ChatGPT-4o):
+  3. LLM-based Score (ChatGPT-4o):
    
-    `python LLMScore.py`
+    python LLMScore.py
 
-4. Decision Tree:
+  4. Decision Tree:
    
-    `DecisionTree.py`
+    DecisionTree.py
 
-5. Spearman Rank Correlation Coefficient:
+  5. Spearman Rank Correlation Coefficient:
 
-   `python spearman.py`
+    python spearman.py
 
-6. Kolmogorov-Smirnov Statistic:
+  6. Kolmogorov-Smirnov Statistic:
 
-   `python ks.py`
+    python ks.py
 
 **7. MENTER Score:**
 
