@@ -40,14 +40,14 @@ Step-by-step running deep assessment of code review generation approaches:
 
    `python ks.py`
 
-9. MENTER Score:
+**9. MENTER Score:**
 
-   `python MENTER.py`
+    `python MENTER.py`
    
-10. ROUGE Score:
-
-    `python ROUGE.py`
-
-11. LLM-based Score (DeepSeek-Coder):
-
-    `python ScoreByDeepSeek.py`
+**10. ROUGE Score:**
+   
+     `python ROUGE.py`
+    
+**11. LLM-based Score (DeepSeek-Coder):**
+   
+     `python ScoreByDeepSeek.py`
