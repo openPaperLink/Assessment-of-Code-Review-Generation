@@ -5,7 +5,7 @@
 Besides BLEU, researchers also employ other lexical similarity-based metrics, e.g., METEOR[1] and ROUGE[2], to assess the quality of generated code reviews. ROUGE[2] is a widely used automatic recall-oriented metric. It measures the overlap of various linguistic units, including n-grams, word pairs, and sequences. METEOR[1] is grounded in the principle of unigram matching, incorporating precision, recall, and an alignment score that evaluates how well the word order aligns with the reference. Although the previous evaluation results suggest that BLEU alone is often inaccurate in distinguishing high-quality code reviews, it remains unclear whether other lexical similarity-based metrics are accurate or not. To this end, in this section, we evaluate the performance of additional lexical similarity-based metrics, i.e., METEOR and ROUGE, in the automated assessment of code reviews. 
 
 <p align = "center">    
-<img  src="./fig/RQ5-1.png" width=50% />
+<img  src="./fig/ROUGE.png" width=50% />
 </p>
 
 <p align = "center">    
