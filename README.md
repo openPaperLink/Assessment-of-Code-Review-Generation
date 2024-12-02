@@ -5,7 +5,7 @@ In this paper, we explore how semantic similarity between generated and referenc
 # Directory Structure
 There are two folders within the replication package:
 
-./Code: The source code of deep assessment of code review generation approach
+./Code: The source code of deep assessment of code review generation approach, includes implementation for BLEU, Embedding-based Score, ChatGPT-based Score, **ROUGE**, **METEOR**, **deepSeek-Coder-based Score** 
 
 ./DataSet: Data to replicate the evaluation in the paper
 
@@ -40,9 +40,9 @@ Step-by-step running deep assessment of code review generation approaches:
 
     python ks.py
 
-**7. <font color=red>MENTER Score:</font>** 
+**7. <font color=red>METEOR Score:</font>** 
 
-    python MENTER.py
+    python METEOR.py
 
 **8. ROUGE Score:**
    
