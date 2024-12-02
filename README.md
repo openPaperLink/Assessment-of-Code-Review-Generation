@@ -40,7 +40,7 @@ Step-by-step running deep assessment of code review generation approaches:
 
     python ks.py
 
-**7. MENTER Score:**
+**7. <font color=red>MENTER Score:</font>** 
 
     python MENTER.py
 
