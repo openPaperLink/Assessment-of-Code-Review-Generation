@@ -40,14 +40,6 @@ Step-by-step running deep assessment of code review generation approaches:
 
     python ks.py
 
-**7. <font color=red>METEOR Score:</font>** 
-
-    python METEOR.py
-
-**8. ROUGE Score:**
-   
-     python ROUGE.py
-    
-**9. LLM-based Score (DeepSeek-Coder):**
-   
-     python ScoreByDeepSeek.py
+<p align = "left">    
+<img  src="./fig/newM.png" width=40% />
+</p>
