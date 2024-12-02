@@ -12,7 +12,7 @@ To have a quantitative and objective assessment of the correlation between DeepS
 
 
 <p align = "center">    
-<img  src="./fig/deepSeek.png" width=45% />
+<img  src="./fig/deepseek.png" width=45% />
 </p>
 
 To visualize the consistency between DeepSeek-Coder-based scores and human scores, we present a heatmap of their overlap in Fig.1. From this figure, we observe that the data distribution is primarily concentrated along the diagonal, suggesting that DeepSeek-Coder-based scores are often aligned with human scores. We also use the Kolmogorov-Smirnov (K-S) statistic[2] to evaluate whether the distributions of DeepSeek-Coder-based scores significantly differ across reviews of different quality levels. Results are presented in Table 2. From this table, we observe that  DeepSeek-Coder is effective in seperating reviews of different quality levels. The KS values of DeepSeek-Coder are comparable to those of ChatGPT, suggting that they have comparable ability in seperating reviews of different quality levels. 
