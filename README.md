@@ -11,7 +11,10 @@ There are two folders within the replication package:
 
 # DataSet:
 The methodology used for constructing the benchmark
-![Methodology for Benchmark Construction](./dataset.png "Methodology for Benchmark Construction")
+<p align = "center">    
+<img  src="./dataset.png" width=60% />
+</p>
+
 
 # Code: 
 Step-by-step running deep assessment of code review generation approaches:
