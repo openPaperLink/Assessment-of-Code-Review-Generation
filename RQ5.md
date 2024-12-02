@@ -9,7 +9,7 @@ Besides BLEU, researchers also employ other lexical similarity-based metrics, e.
 </p>
 
 <p align = "center">    
-<img  src="./fig/RQ5-2.png" width=50% />
+<img  src="./fig/meteor.png" width=50% />
 </p>
 
 To evaluate the accuracy of ROUGE and METEOR in assessing generated code reviews, with the open-source implemations[3], we automatically compute ROUGE and METEOR for each of the generated code reviews we collected for the evaluation. After that, we draw the distribution of ROUGE and METEOR  for reviews with different scores in Fig.1 and Fig.2, respectively. Each bean in the graph represents the ROUGE/METEOR score distribution for reviews with a specific score, such as 1-point reviews. From Fig.1, observe that the beans overlap heavily. For instance, the ROUGE scores for 2-point reviews range from 0 to 0.84, which significantly overlaps with the range of ROUGE scores for 1-point reviews (from 0 to 0.71) and the range for 3-point reviews (from 0 to 0.67). It may suggest that it could be challenging to distinguish high-quality reviews (i.e., those with high human scores) from low-quality ones (i.e., those with low human scores). We also observe from Fig.2 that the beans (distribution of METEOR) also heavily overlap. For example, the MENTER scores for 2-point reviews range from 0 to 0.85, overlapping with the range of MENTER scores for 1-point reviews (from 0 to 0.69) and the range for 3-point reviews (from 0 to 0.82). This considerable overlap makes it challenging, if not impossible, to accurately infer human scores based solely on  ROUGE or METEOR alone. 
