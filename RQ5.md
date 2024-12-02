@@ -17,7 +17,7 @@ To evaluate the accuracy of ROUGE and METEOR in assessing generated code reviews
 On the other side, however, we also observe the positive correlation between human scores and ROUGE/METEOR. For example, the median ROUGE score increases with the increase of human scores. The medians for reviews graded 1, 2, 3, and 4 are 0.06, 0.13, 0.19, and 0.20, respectively. The median MENTER score follows a similar trend, with medians for reviews graded 1, 2, 3, and 4 being 0.04, 0.08, 0.14, and 0.15, respectively.  
 
 <p align = "center">    
-<img  src="./fig/RQ5-3.png" width=60% />
+<img  src="./fig/table1.png" width=60% />
 </p>
 
 To have a quantitative and objective assessment of the correlation between human scores and ROUGE/METEOR, we compute the Spearman Rank Correlation between them as shown in Table 1. Our computation results suggest that the Spearman Rank Correlation Coefficient between ROUGE scores and human scores is 0.25 where the p-value is significantly below 0.05. It may suggest that ROUGE scores are positively related to human scores, but the correlation is weak.  The same is true for METEOR scores whose Spearman Rank Correlation Coefficient with human scores is 0.21, indicating a positive yet weak correlation. 
